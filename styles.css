@@ -47,7 +47,7 @@ h1 {
 
 .twitch-chat {
     flex: 1;
-    height: 640px;
+    height: 1200px;
 }
 
 .twitch-chat iframe {
