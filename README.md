@@ -1,3 +1,2 @@
 # tinowl_tv
-
-there is no way 
+the tinowl entertainment hub, what else? 
