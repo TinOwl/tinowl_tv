@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chill Twitch Stream</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tinowl.tv</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to the TinOwl Stream</h1>
-        <p>Grab a cup of tea, sit back, and enjoy the stream!</p>
-    </header>
+    <div class="container">
+        <h1>yo</h1>
 
-    <main>
-        <div class="stream-container">
-            <iframe
-                src="https://player.twitch.tv/?channel=tinowl&parent=yourwebsite.com"
-                frameborder="0"
-                allowfullscreen="true"
-                scrolling="no"
-                height="480"
-                width="854">
-            </iframe>
+        <div class="twitch-embed">
+            <!-- Embedded Twitch Player -->
+            <div class="twitch-video">
+                <iframe src="https://player.twitch.tv/?channel=tinowl&parent=https://tinowl.tv" frameborder="0"
+                    allowfullscreen="true" scrolling="no" width="100%" height="100%">
+                </iframe>
+            </div>
+
+            <!-- Embedded Twitch Chat -->
+            <div class="twitch-chat">
+                <iframe src="https://www.twitch.tv/embed/tinowl/chat?parent=https://tinowl.tv" frameborder="0"
+                    scrolling="no" width="100%" height="100%">
+                </iframe>
+            </div>
         </div>
-    </main>
-
-    <footer>
-        <p>Enjoy the vibes. Stay awesome!</p>
-    </footer>
+    </div>
 </body>
+
 </html>
